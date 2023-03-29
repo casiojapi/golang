@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"rsc.io/quote"
+	"casiojapi.com/greetings"
 )
 
 func main() {
-	fmt.Println(quote.Go())
+	fmt.Println(greetings.Greet("maximo"))
 }
